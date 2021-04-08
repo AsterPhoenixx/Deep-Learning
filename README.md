@@ -6,7 +6,7 @@ To run this Project you must download Anaconda latest version from his website f
 
 Aster you install Anaconda search Anaconda Navigator from taskbar and run it. After its open there is menu --> go to Enviroments -->and then create new envirement, name it Tensorflow or whathever you want. Wait a minute and then from the drop menu change from installed to not insatalled and search for Tensorflow , and chek and apply, wait a few minutes the do the same thing, searching for Keras. After raady with that go back and you will see Jupyter notebook is not insatlled, beacause you've create new envirement, click on install
 Now what exacly is my project? The project creates similar text to text i give him to him, i choose Shakespeare Texts. But it can work with any texts without problem.
-<h4>first you have to import these Lbraries: <h4>
+first you have to import these Lbraries:
   
 ```python
 import numpy as np
