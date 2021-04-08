@@ -102,7 +102,7 @@ So basically the first SEQ_LENGTH amount of characters will be copied from the o
 
 So we choose some random starting text and then we run a for loop in the range of the length that we want. We can generate a text with 100 characters or one with 20,000. We then convert our sentence into the desired input format that we already talked about. The sentence is now an array with ones or Trues, wherever a character occurs. Then we use the predict method of our model, to predict the likelihoods of the next characters. Then we make use of our sample helper function. In this function we also have a temperature parameter, which we can pass to that helper function. Of course the result we get needs to be converted from the numerical format into a readable character. Once this is done, we add the character to our generated text and repeat the process, until we reach the desired length.
 
-Now but not least, the generated text is saved to  .mp3 file thanks to IBM cloud services. And the service we use is Text-to speech
+Now but not least, the generated text is saved to  .mp3 file thanks to IBM cloud services. And the service we use is Text-to-Speech
 
 ```python
 myTxt = generate_text(300, 0.60)
