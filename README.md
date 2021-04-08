@@ -1,6 +1,10 @@
 # Deep-Learning
 Deep learning (also known as deep structured learning) is part of a broader  family of machine learning methods based on artificial neural networks with  representation learning. Learning can be supervised, semi-supervised or unsupervised.  Deep-learning architectures such as deep neural networks, deep belief  networks, recurrent neural networks and convolutional neural networks  have been applied to fields including computer vision, machine vision,  speech recognition, natural language processing, audio recognition,  social network filtering, machine translation, bioinformatics, drug  design, medical image analysis, material inspection and board game  programs, where they have produced results comparable to and in some  cases surpassing human expert performance. Artificial neural networks (ANNs) were inspired by information processing  and distributed communication nodes in biological systems. ANNs have  various differences from biological brains. Specifically, neural networks  tend to be static and symbolic, while the biological brain of most living  organisms is dynamic (plastic) and analogue.
 
+<h1>About the project<h1/>
+
+
+
 The project is created with Anaconda. Anaconda is a distribution of the Python and R programming languages for scientific computing (data science, machine learning applications, large-scale data processing, predictive analytics, etc.), that aims to simplify package management and deployment. The distribution includes data-science packages suitable for Windows, Linux, and macOS. It is developed and maintained by Anaconda, Inc., which was founded by Peter Wang and Travis Oliphant in 2012. As an Anaconda, Inc. product, it is also known as Anaconda Distribution or Anaconda Individual Edition, while other products from the company are Anaconda Team Edition and Anaconda Enterprise Edition, both of which are not free. 
 To run this Project you must download Anaconda latest version from his website for Windows, Mac or Linux. You have uninstall any python form your computer and install clean Anaconda.
 
@@ -26,7 +30,8 @@ After imports are made now we can get a text file and i choose this : https://st
 ```python
 filepath = tf.keras.utils.get_file('shakespeare.txt',
         'https://storage.googleapis.com/download.tensorflow.org/data/shakespeare.txt')
-text = open(filepath, 'rb').read().decode(encoding='utf-8')
+text = open(filepath, 'rb').read().decode(encoding='utf-8'
+
 ```
 The problem that we have right now with our data is that we are dealing with text. We cannot just train a neural network on letters or sentences. We need to convert all of these values into numerical data. So we have to come up with a system that allows us to convert the text into numbers, then predict specific numbers based on that data and then again convert the resulting numbers back into text.
 
