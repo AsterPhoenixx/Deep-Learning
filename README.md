@@ -20,7 +20,10 @@ from tensorflow.keras.optimizers import RMSprop
 from ibm_watson import TextToSpeechV1
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 ```
-For IBM you have to <b>!pip install ibm_watson</b>
+For IBM you have to 
+```python 
+!pip install ibm_watson
+```
 
 TensorFlow is an end-to-end open source platform for machine learning. It has a comprehensive, flexible ecosystem of tools, libraries and community resources that lets researchers push the state-of-the-art in ML and developers easily build and deploy ML powered applications. And Thats why he is essential for thsi project
 After imports are made now we can get a text file and i choose this : https://storage.googleapis.com/download.tensorflow.org/data/shakespeare.txt
