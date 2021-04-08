@@ -3,8 +3,6 @@ Deep learning (also known as deep structured learning) is part of a broader  fam
 
 <h1>About the project<h1/>
 
-
-
 The project is created with Anaconda. Anaconda is a distribution of the Python and R programming languages for scientific computing (data science, machine learning applications, large-scale data processing, predictive analytics, etc.), that aims to simplify package management and deployment. The distribution includes data-science packages suitable for Windows, Linux, and macOS. It is developed and maintained by Anaconda, Inc., which was founded by Peter Wang and Travis Oliphant in 2012. As an Anaconda, Inc. product, it is also known as Anaconda Distribution or Anaconda Individual Edition, while other products from the company are Anaconda Team Edition and Anaconda Enterprise Edition, both of which are not free. 
 To run this Project you must download Anaconda latest version from his website for Windows, Mac or Linux. You have uninstall any python form your computer and install clean Anaconda.
 
