@@ -31,7 +31,7 @@ After imports are made now we can get a text file and i choose this : https://st
 ```python
 filepath = tf.keras.utils.get_file('shakespeare.txt',
         'https://storage.googleapis.com/download.tensorflow.org/data/shakespeare.txt')
-text = open(filepath, 'rb').read().decode(encoding='utf-8'
+text = open(filepath, 'rb').read().decode(encoding='utf-8')
 
 ```
 The problem that we have right now with our data is that we are dealing with text. We cannot just train a neural network on letters or sentences. We need to convert all of these values into numerical data. So we have to come up with a system that allows us to convert the text into numbers, then predict specific numbers based on that data and then again convert the resulting numbers back into text.
